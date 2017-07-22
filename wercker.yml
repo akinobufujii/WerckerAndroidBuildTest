@@ -7,11 +7,8 @@ box:
 build:
    steps:
     - script:
-      name: build
+      name: build start
       code: echo "build start"
- 
-build-for-grable:
-  steps:
     - script:
       name: clone source
       code: git clone https://github.com/googlesamples/android-AppShortcuts.git
