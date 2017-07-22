@@ -15,3 +15,6 @@ build-for-grable:
     - script:
         name: build
         code: ./gradlew build
+    - script:
+        name: done
+        code: echo "done"
