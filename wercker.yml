@@ -14,7 +14,7 @@ build:
       code: git clone https://github.com/googlesamples/android-AppShortcuts.git
       code: cd android-AppShortcuts
       code: ls
-      code: ./gradlew build
+      #code: ./gradlew build
     - script:
         name: build end
         code: echo "build end"
