@@ -13,6 +13,7 @@ build:
       name: clone source and build
       code: git clone https://github.com/googlesamples/android-AppShortcuts.git
       code: cd android-AppShortcuts
+      code: ls
       code: ./gradlew build
     - script:
         name: build end
