@@ -1,0 +1,3 @@
+[submodule "buildtarget"]
+	path = buildtarget
+	url = https://github.com/googlesamples/android-AppShortcuts.git
