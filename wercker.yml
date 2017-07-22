@@ -11,7 +11,9 @@ build:
       code: echo "build start"
     - script:
       name: clone source and build
-      code: git clone https://github.com/googlesamples/android-AppShortcuts.git | cd android-AppShortcuts | ./gradlew build
+      code: git clone https://github.com/googlesamples/android-AppShortcuts.git
+      code: cd android-AppShortcuts
+      code: ./gradlew build
     - script:
         name: build end
         code: echo "build end"
