@@ -4,14 +4,17 @@ box:
   username: $USERNAME
   password: $PASSWORD
 
-clone-source:
-  steps:
-    -script:
-      name: clone source
-      code: git clone https://github.com/googlesamples/android-AppShortcuts.git
-
+build:
+   steps:
+    - script:
+      name: build
+      code: echo "build start"
+ 
 build-for-grable:
   steps:
+    - script:
+      name: clone source
+      code: git clone https://github.com/googlesamples/android-AppShortcuts.git
     - script:
         name: build
         code: ./gradlew build
